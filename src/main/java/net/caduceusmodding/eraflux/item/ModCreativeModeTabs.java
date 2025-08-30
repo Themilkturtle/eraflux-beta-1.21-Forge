@@ -27,6 +27,23 @@ public class ModCreativeModeTabs {
                                 output.accept(ModItems.GLASS_VILE.get());
                                 output.accept(ModItems.RAW_LEAD.get());
                                 output.accept(ModItems.RAW_TUNGSTEN.get());
+                                output.accept(ModItems.RED_SATLITE_PHONE.get());
+                                output.accept(ModItems.ORANGE_SATLITE_PHONE.get());
+                                output.accept(ModItems.YELLOW_SATLITE_PHONE.get());
+                                output.accept(ModItems.GREEN_SATLITE_PHONE.get());
+                                output.accept(ModItems.LIME_SATLITE_PHONE.get());
+                                output.accept(ModItems.BLUE_SATLITE_PHONE.get());
+                                output.accept(ModItems.LIGHT_BLUE_SATLITE_PHONE.get());
+                                output.accept(ModItems.CYAN_SATLITE_PHONE.get());
+                                output.accept(ModItems.PURPLE_SATLITE_PHONE.get());
+                                output.accept(ModItems.MAGENTA_SATLITE_PHONE.get());
+                                output.accept(ModItems.PINK_SATLITE_PHONE.get());
+                                output.accept(ModItems.WHITE_SATLITE_PHONE.get());
+                                output.accept(ModItems.BLACK_SATLITE_PHONE.get());
+                                output.accept(ModItems.GREY_SATLITE_PHONE.get());
+                                output.accept(ModItems.LIGHT_GREY_SATLITE_PHONE.get());
+                                output.accept(ModItems.BROWN_SATLITE_PHONE.get());
+
                             })
                             .build()
             );
