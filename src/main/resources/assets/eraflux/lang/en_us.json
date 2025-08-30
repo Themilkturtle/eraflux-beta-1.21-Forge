@@ -1,5 +1,11 @@
 {
   "item.eraflux.bone_fragments": "Bone Fragments",
   "item.eraflux.charred_bone_fragments": "Charred Bone Fragments",
+  "item.eraflux.amber_chunk": "Amber Chunk",
+  "item.eraflux.biofluid_vile": "Biofluid Vile",
+  "item.eraflux.blood_viles": "Blood Vile",
+  "item.eraflux.glass_vile": "Glass Vile",
+  "item.eraflux.raw_lead": "Raw Lead",
+  "item.eraflux.raw_tungsten": "Raw Tungsten",
   "itemGroup.eraflux.eraflux_tab": "EraFlux"
 }

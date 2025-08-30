@@ -21,6 +21,12 @@ public class ModCreativeModeTabs {
                             .displayItems((params, output) -> {
                                 output.accept(ModItems.BONE_FRAGMENTS.get());
                                 output.accept(ModItems.CHARRED_BONE_FRAGMENTS.get());
+                                output.accept(ModItems.AMBER_CHUNK.get());
+                                output.accept(ModItems.BIOFLUID_VILE.get());
+                                output.accept(ModItems.BLOOD_VILE.get());
+                                output.accept(ModItems.GLASS_VILE.get());
+                                output.accept(ModItems.RAW_LEAD.get());
+                                output.accept(ModItems.RAW_TUNGSTEN.get());
                             })
                             .build()
             );
