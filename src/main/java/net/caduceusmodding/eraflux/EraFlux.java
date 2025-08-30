@@ -1,6 +1,8 @@
 package net.caduceusmodding.eraflux;
 
 import com.mojang.logging.LogUtils;
+import net.caduceusmodding.eraflux.item.ModCreativeModeTabs;
+import net.caduceusmodding.eraflux.item.ModItems;
 import net.minecraft.client.Minecraft;
 import net.minecraft.world.item.CreativeModeTabs;
 import net.minecraft.world.level.block.Blocks;
@@ -35,6 +37,10 @@ public class EraFlux {
         // Register ourselves for server and other game events we are interested in
         MinecraftForge.EVENT_BUS.register(this);
 
+        ModItems.register(modEventBus);
+
+        ModCreativeModeTabs.register(modEventBus);
+
 
         // Tom- "Hi welcome on into the mod code!!!"
 
@@ -52,6 +58,11 @@ public class EraFlux {
 
     // Add the example block item to the building blocks tab
     private void addCreative(BuildCreativeModeTabContentsEvent event) {
+        if (event.getTabKey() == CreativeModeTabs.INGREDIENTS) {
+            event.accept(ModItems.BONE_FRAGMENTS);
+            event.accept(ModItems.CHARRED_BONE_FRAGMENTS);
+        }
+
 
     }
 
